@@ -28,13 +28,13 @@
         transform: translateX(80vh);
     }
     to {
-        transform: translateX(-1vh);
+        transform: translateX(0);
     }
 }
 
 @keyframes slideOut {
     from {
-        transform: translateX(-1vh);
+        transform: translateX(0);
     }
     to {
         transform: translateX(80vh);
