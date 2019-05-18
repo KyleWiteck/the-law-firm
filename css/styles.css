@@ -25,19 +25,19 @@
 
 @keyframes slideIn {
     from {
-        transform: translateX(80vh);
+        transform: translateX(80vw);
     }
     to {
-        transform: translateX(0);
+        transform: translateX(0vw);
     }
 }
 
 @keyframes slideOut {
     from {
-        transform: translateX(0);
+        transform: translateX(0vw);
     }
     to {
-        transform: translateX(80vh);
+        transform: translateX(80vw);
     }
 }
 
