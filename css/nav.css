@@ -99,6 +99,7 @@ header {
 	width: 100%;
 	display: none;
 	z-index: 990;
+	background-color: rgba(0, 0, 0, 0.6);
 }
 
 .mobile-menu {
@@ -119,15 +120,70 @@ header {
 }
 
 .mobile-menu ul li a {
+	padding: 1rem 0;
 	text-decoration: none;
 	font-size: 1.3rem;
 	color: black;
 	font-family: 'Quattrocento', serif;
 }
 
-.mobile-menu ul li a:hover,
-#current {
+.mobile-menu ul li a:hover {
 	color: #0080ff;
 }
 
 /* ------- Media Queries ------- */
+
+@media screen and (min-width: 801px) {
+	nav {
+		width: 100%;
+		max-width: 960px;
+		margin: 0 auto;
+	}
+	#logo {
+		z-index: 999;
+		float: left;
+	}
+	.mobile-menu-wrapper {
+		display: block;
+		height: 60px;
+		margin: 0 auto;
+		position: relative;
+		background-color: transparent;
+	}
+	.mobile-menu {
+		height: 60px;
+		background: transparent;
+		border-left: none;
+		display: flex;
+		flex-wrap: nowrap;
+		justify-content: flex-end;
+		align-items: center;
+		float: none;
+	}
+	.mobile-menu ul {
+		display: flex;
+		flex-wrap: wrap;
+		flex-direction: row;
+		padding: 0;
+		height: 60px;
+		width: auto;
+	}
+	.mobile-menu ul li {
+		padding: 0 1rem;
+		display: flex;
+		align-items: center;
+	}
+	.mobile-menu ul li a {
+		text-decoration: none;
+		font-size: 1rem;
+		color: black;
+		font-family: 'Quattrocento', serif;
+		padding: 1rem 0;
+	}
+	#hamburger-icon {
+		display: none;
+	}
+	#close-icon {
+		display: none;
+	}
+}
