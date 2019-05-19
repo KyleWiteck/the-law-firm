@@ -49,13 +49,27 @@ header {
 	background: #fff;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
 	border-bottom: 1px solid #858585;
 	height: 60px;
 	position: fixed;
 }
 
 #logo {
+	padding: 0.5rem 1rem;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	font-size: 1rem;
+	max-width: 150px;
+	font-family: 'Cinzel', serif;
+	font-weight: bold;
+}
+
+#logo i {
+	margin-right: 0.5rem;
+	font-size: 2rem;
+	color: #0080ff;
 }
 
 #hamburger-icon {
