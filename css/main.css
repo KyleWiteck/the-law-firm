@@ -1,0 +1,17 @@
+#home-hero {
+	background-image: url('/img/law-books.jpg');
+	/* Photo by Iñaki del Olmo on Unsplash */
+	background-position: center;
+	background-size: cover;
+	height: 70vh;
+	display: flex;
+	flex-wrap: nowrap;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+#home-hero-content {
+	background: rgba(3, 103, 123, 0.9);
+	height: 50vh;
+	width: 96%;
+}

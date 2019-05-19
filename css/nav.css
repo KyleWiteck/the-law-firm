@@ -49,9 +49,14 @@ header {
 	background: #fff;
 	display: flex;
 	flex-wrap: wrap;
+	align-items: center;
 	border-bottom: 1px solid #242424;
-	height: 60px;
-	position: fixed;
+	height: 80px;
+}
+
+nav {
+	display: flex;
+	align-content: center;
 }
 
 #logo {
@@ -69,13 +74,13 @@ header {
 #logo i {
 	margin-right: 0.5rem;
 	font-size: 2rem;
-	color: #0080ff;
+	color: rgb(3, 103, 123);
 }
 
 #hamburger-icon {
 	padding: 1rem;
 	position: absolute;
-	top: 0;
+	top: 10px;
 	right: 0;
 	font-size: 1.5rem;
 	cursor: pointer;
@@ -127,7 +132,7 @@ header {
 	font-family: 'Quattrocento', serif;
 }
 
-.mobile-menu ul li a:hover {
+.nav-links li a:hover {
 	color: #0080ff;
 }
 
@@ -135,6 +140,8 @@ header {
 
 @media screen and (min-width: 801px) {
 	nav {
+		display: flex;
+		align-items: center;
 		width: 100%;
 		max-width: 960px;
 		margin: 0 auto;
@@ -145,13 +152,13 @@ header {
 	}
 	.mobile-menu-wrapper {
 		display: block;
-		height: 60px;
+		height: 80px;
 		margin: 0 auto;
 		position: relative;
 		background-color: transparent;
 	}
 	.mobile-menu {
-		height: 60px;
+		height: 80px;
 		background: transparent;
 		border-left: none;
 		display: flex;
@@ -165,7 +172,7 @@ header {
 		flex-wrap: wrap;
 		flex-direction: row;
 		padding: 0;
-		height: 60px;
+		height: 80px;
 		width: auto;
 	}
 	.mobile-menu ul li {
