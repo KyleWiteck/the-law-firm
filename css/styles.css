@@ -55,6 +55,9 @@ header {
 	position: fixed;
 }
 
+#logo {
+}
+
 #hamburger-icon {
 	padding: 1rem;
 	position: absolute;
@@ -72,7 +75,7 @@ header {
 	font-size: 1.5rem;
 }
 
-header nav .mobile-menu-wrapper {
+.mobile-menu-wrapper {
 	position: absolute;
 	top: 0;
 	right: 0;
@@ -81,29 +84,29 @@ header nav .mobile-menu-wrapper {
 	z-index: 990;
 }
 
-header nav .mobile-menu-wrapper .mobile-menu {
+.mobile-menu {
 	height: 100vh;
 	background: #fff;
 	border: 1px solid #858585;
 	float: right;
 }
 
-header nav .mobile-menu-wrapper .mobile-menu ul {
+.mobile-menu ul {
 	text-decoration: none;
 	list-style: none;
 	padding: 4rem 0;
 }
 
-header nav .mobile-menu-wrapper .mobile-menu ul li {
+.mobile-menu ul li {
 	padding: 1rem 2rem;
 }
 
-header nav .mobile-menu-wrapper .mobile-menu ul li a {
+.mobile-menu ul li a {
 	text-decoration: none;
 	font-size: 1.3rem;
 	color: black;
 }
 
-header nav .mobile-menu-wrapper #mobile-menu ul li a:hover {
+#mobile-menu ul li a:hover {
 	color: blue;
 }
