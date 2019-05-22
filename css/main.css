@@ -86,7 +86,7 @@
 	margin-right: 1rem;
 	margin-top: 0.35rem;
 	font-size: 0.5rem;
-	color: rgb(107, 226, 204);
+	color: rgb(91, 211, 189);
 }
 
 #practices li p {
@@ -113,7 +113,6 @@
 }
 
 /* --------- Attorneys -------- */
-
 #attorneys #image-block {
 	height: 200px;
 	/* Photo by rawpixel.com from Pexels */
@@ -124,6 +123,7 @@
 
 #attorney-content {
 	background: rgb(234, 255, 253);
+	padding-bottom: 2.2rem;
 }
 
 #attorney-content h2 {
@@ -144,19 +144,123 @@
 	width: 180px;
 }
 
-#attorney-content ul li h4,
-#attorney-content ul li h5 {
+#attorney-content ul li h4 {
 	padding: 0.8rem;
 }
 
 #attorney-content ul li h5 {
-	padding-top: 0;
+	color: rgba(85, 174, 219, 0.452);
 }
 
 #attorney-content ul li div {
 	width: 140px;
 	margin: auto;
-	margin-top: 0.5rem;
+	margin-top: 1rem;
 	padding: 1.3rem;
 	border-top: 1px solid rgba(85, 174, 219, 0.452);
+}
+
+/* ------ Contact ----- */
+
+#contact-info {
+	/* Photo by Juhasz Imre from Pexels  */
+	background: linear-gradient(rgba(43, 92, 116, 0.6), rgba(43, 92, 116, 0.6)),
+		url('/img/building2.jpg');
+	color: #fff;
+}
+
+#contact-info h2 {
+	padding: 1.8rem 1.5rem;
+	background: rgba(43, 92, 116, 0.8);
+}
+
+#contact-info h3 {
+	padding: 1.8rem 1.5rem;
+}
+
+#contact-info #address {
+	padding: 0 1.5rem 1.8rem 1.5rem;
+}
+
+#contact-info #address p {
+	padding: 0.2rem 0;
+}
+
+#contact-info p {
+	padding: 1rem 1.5rem 0.5rem 1.5rem;
+}
+
+#home-contact-form {
+	padding: 1.5rem 1.5rem;
+}
+
+#home-contact-form form input,
+#home-contact-form form textarea {
+	width: 96%;
+	padding: 0.5rem 0 0.5rem 0.5rem;
+	margin: 0.4rem 0;
+}
+
+#home-contact-form form textarea {
+	padding: 0.5rem 0 3rem 0.5rem;
+}
+
+#home-contact-form .form-submit {
+	width: 100%;
+	padding: 0.5rem 0;
+	background: rgb(91, 211, 189);
+	border: none;
+	color: #fff;
+}
+
+/* -------- Back To Top --------- */
+
+#back-to-top {
+	width: 100%;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+	padding: 2rem 0;
+	background: rgb(1, 57, 85);
+	color: #fff;
+}
+
+#back-to-top i {
+	font-size: 1.5rem;
+	margin-bottom: 1rem;
+}
+
+/* ------ footer ------ */
+
+footer {
+	padding: 2rem 0;
+	display: flex;
+	flex-wrap: nowrap;
+	flex-direction: column;
+	align-content: center;
+	text-align: center;
+	justify-items: center;
+}
+
+footer #social-icons a {
+	padding: 1rem;
+}
+
+footer #social-icons i {
+	font-size: 1.5rem;
+}
+
+footer #linkedin-icon {
+	color: rgb(0, 112, 176);
+}
+
+footer #twitter-icon {
+	color: rgb(85, 172, 238);
+}
+
+footer p {
+	font-size: 0.5rem;
+	margin-top: 1rem;
 }
