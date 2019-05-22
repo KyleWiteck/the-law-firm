@@ -26,7 +26,7 @@
 #home-hero-content-wrapper {
 	background: rgba(43, 92, 116, 0.9);
 	height: 50vh;
-	margin-left: 1.5rem;
+	margin-left: 0.8rem;
 	display: flex;
 	flex-wrap: nowrap;
 	justify-content: flex-end;
@@ -42,7 +42,7 @@
 
 #home-hero-content h1,
 #home-hero-content h2 {
-	font-size: 2.2rem;
+	font-size: 2.3rem;
 }
 
 #home-hero-content h2 {
@@ -53,3 +53,43 @@
 	font-size: 1.2rem;
 	margin-bottom: 2rem;
 }
+
+/* ----- Practices ------ */
+#practices {
+	padding-bottom: 1rem;
+}
+
+#practices h2 {
+	padding: 0.8rem 1.5rem;
+	background: rgb(226, 255, 253);
+	font-size: 1.5rem;
+}
+
+#practices ul {
+	list-style: none;
+}
+
+#practices li {
+	padding: 1.3rem 1.5rem 0 1.5rem;
+}
+
+#practices li h3 {
+	font-size: 1.4rem;
+	display: flex;
+	align-items: flex-start;
+	align-content: flex-start;
+}
+
+#practices li h3 i {
+	margin-right: 1rem;
+	margin-top: 0.35rem;
+	font-size: 0.5rem;
+	color: rgb(107, 226, 204);
+}
+
+#practices li p {
+	margin-left: 1.7rem;
+	padding: 1rem 0;
+}
+
+/* ------ Our Vision ------ */
