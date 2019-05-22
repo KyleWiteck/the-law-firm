@@ -62,16 +62,17 @@
 
 #practices h2 {
 	padding: 0.8rem 1.5rem;
-	background: rgb(226, 255, 253);
+	background: rgb(234, 255, 253);
 	font-size: 1.5rem;
 }
 
 #practices ul {
 	list-style: none;
+	padding-bottom: 2rem;
 }
 
 #practices li {
-	padding: 1.3rem 1.5rem 0 1.5rem;
+	padding: 3rem 1.5rem 0 1.5rem;
 }
 
 #practices li h3 {
@@ -122,10 +123,40 @@
 }
 
 #attorney-content {
-	background: rgb(226, 255, 253);
+	background: rgb(234, 255, 253);
 }
 
 #attorney-content h2 {
 	padding: 3rem 0 0 0;
 	text-align: center;
+}
+
+#attorney-content ul {
+	padding: 0.5rem 0;
+}
+
+#attorney-content ul li {
+	text-align: center;
+	padding: 2rem 0 0 0;
+}
+
+#attorney-content ul li img {
+	width: 180px;
+}
+
+#attorney-content ul li h4,
+#attorney-content ul li h5 {
+	padding: 0.8rem;
+}
+
+#attorney-content ul li h5 {
+	padding-top: 0;
+}
+
+#attorney-content ul li div {
+	width: 140px;
+	margin: auto;
+	margin-top: 0.5rem;
+	padding: 1.3rem;
+	border-top: 1px solid rgba(85, 174, 219, 0.452);
 }
