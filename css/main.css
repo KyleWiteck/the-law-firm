@@ -55,6 +55,7 @@
 }
 
 /* ----- Practices ------ */
+
 #practices {
 	padding-bottom: 1rem;
 }
@@ -93,3 +94,38 @@
 }
 
 /* ------ Our Vision ------ */
+
+#vision {
+	background: rgb(1, 57, 85);
+	color: #fff;
+	padding: 1.5rem;
+}
+
+#vision h2 {
+	padding: 1.5rem 1.5rem 2rem 1.5rem;
+	text-align: center;
+	font-size: 2rem;
+}
+
+#vision p {
+	padding: 0.5rem 1rem;
+}
+
+/* --------- Attorneys -------- */
+
+#attorneys #image-block {
+	height: 200px;
+	/* Photo by rawpixel.com from Pexels */
+	background-image: url('/img/hand-shake.jpg');
+	background-position: center;
+	background-size: cover;
+}
+
+#attorney-content {
+	background: rgb(226, 255, 253);
+}
+
+#attorney-content h2 {
+	padding: 3rem 0 0 0;
+	text-align: center;
+}
