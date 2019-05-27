@@ -35,7 +35,7 @@
 }
 
 #home-hero-content {
-	margin: auto 1rem;
+	margin: auto 1.5rem auto 1rem;
 	height: auto;
 	color: #fff;
 }
@@ -61,14 +61,18 @@
 }
 
 #practices h2 {
-	padding: 0.8rem 1.5rem;
+	padding: 2rem 1.5rem;
 	background: rgb(234, 255, 253);
 	font-size: 1.5rem;
+	text-align: center;
 }
 
 #practices ul {
 	list-style: none;
+	margin: auto;
 	padding-bottom: 2rem;
+	display: flex;
+	flex-wrap: wrap;
 }
 
 #practices li {
@@ -99,7 +103,7 @@
 #vision {
 	background: rgb(1, 57, 85);
 	color: #fff;
-	padding: 1.5rem;
+	padding: 1.5rem 1.5rem 3rem 1.5rem;
 }
 
 #vision h2 {
@@ -113,6 +117,7 @@
 }
 
 /* --------- Attorneys -------- */
+
 #attorneys #image-block {
 	height: 200px;
 	/* Photo by rawpixel.com from Pexels */
@@ -133,11 +138,14 @@
 
 #attorney-content ul {
 	padding: 0.5rem 0;
+	max-width: 700px;
+	margin: 0 auto;
 }
 
 #attorney-content ul li {
 	text-align: center;
 	padding: 2rem 0 0 0;
+	list-style: none;
 }
 
 #attorney-content ul li img {
@@ -196,9 +204,14 @@
 
 #home-contact-form form input,
 #home-contact-form form textarea {
-	width: 96%;
-	padding: 0.5rem 0 0.5rem 0.5rem;
+	width: 100%;
+	padding: 0.5rem 0 0 0.5rem;
 	margin: 0.4rem 0;
+	-webkit-box-sizing: border-box;
+	/* Safari/Chrome, other WebKit */
+	-moz-box-sizing: border-box;
+	/* Firefox, other Gecko */
+	box-sizing: border-box;
 }
 
 #home-contact-form form textarea {
@@ -263,4 +276,67 @@ footer #twitter-icon {
 footer p {
 	font-size: 0.5rem;
 	margin-top: 1rem;
+}
+
+/* ------ Media Queries ------ */
+
+@media screen and (min-width: 450px) {
+	#home-hero-content {
+		padding-right: 3rem;
+	}
+	#contact-info p {
+		padding-right: 3rem;
+	}
+}
+
+@media screen and (min-width: 500px) {
+	#attorneys {
+		width: 100%;
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#attorneys #image-block {
+		width: 35%;
+		height: 481px;
+		order: 1;
+	}
+	#attorney-content {
+		width: 65%;
+	}
+	#attorney-content ul {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-around;
+	}
+}
+
+@media screen and (min-width: 750px) {
+	#practices ul {
+		flex-direction: row;
+		justify-content: center;
+	}
+	#practices ul li {
+		width: 25%;
+	}
+}
+
+@media screen and (min-width: 960px) {
+	#contact {
+		display: flex;
+		flex-wrap: wrap;
+	}
+	#contact-info {
+		width: 50%;
+	}
+	#home-contact-form {
+		width: 45.3%;
+		display: flex;
+		flex-wrap: nowrap;
+		align-items: center;
+	}
+	#home-contact-form form input,
+	#home-contact-form form .form-submit,
+	#home-contact-form form textarea {
+		width: 100%;
+	}
 }
