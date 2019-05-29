@@ -64,15 +64,12 @@
 	padding: 2rem 1.5rem;
 	background: rgb(234, 255, 253);
 	font-size: 1.5rem;
-	text-align: center;
 }
 
 #practices ul {
 	list-style: none;
 	margin: auto;
 	padding-bottom: 2rem;
-	display: flex;
-	flex-wrap: wrap;
 }
 
 #practices li {
@@ -121,7 +118,8 @@
 #attorneys #image-block {
 	height: 200px;
 	/* Photo by rawpixel.com from Pexels */
-	background-image: url('/img/hand-shake.jpg');
+	background-image: url('/img/meeting.jpg');
+	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
 }
@@ -287,21 +285,34 @@ footer p {
 	#contact-info p {
 		padding-right: 3rem;
 	}
+	#practices {
+		display: flex;
+		flex-wrap: wrap;
+		padding-bottom: 0;
+	}
+	#practices h2 {
+		width: 29%;
+		padding-top: 50px;
+	}
+	#practices ul {
+		width: 60%;
+	}
 }
 
 @media screen and (min-width: 500px) {
+	#practices h2 {
+		font-size: 1.6rem;
+	}
 	#attorneys {
 		width: 100%;
-		display: flex;
-		flex-wrap: wrap;
 	}
 	#attorneys #image-block {
-		width: 35%;
-		height: 481px;
+		width: 100%;
+		height: 400px;
 		order: 1;
 	}
 	#attorney-content {
-		width: 65%;
+		width: 100%;
 	}
 	#attorney-content ul {
 		display: flex;
@@ -310,33 +321,45 @@ footer p {
 	}
 }
 
-@media screen and (min-width: 750px) {
-	#practices ul {
-		flex-direction: row;
-		justify-content: center;
-	}
-	#practices ul li {
-		width: 25%;
+@media screen and (min-width: 600px) {
+	#practices h2 {
+		font-size: 2rem;
 	}
 }
 
 @media screen and (min-width: 960px) {
+	#practices h2 {
+		padding-left: 8rem;
+		padding-right: 0;
+		width: 25%;
+	}
 	#contact {
 		display: flex;
 		flex-wrap: wrap;
+		justify-content: space-between;
 	}
 	#contact-info {
-		width: 50%;
+		width: 48%;
 	}
 	#home-contact-form {
-		width: 45.3%;
+		width: 47%;
 		display: flex;
 		flex-wrap: nowrap;
 		align-items: center;
+		justify-content: center;
 	}
 	#home-contact-form form input,
 	#home-contact-form form .form-submit,
 	#home-contact-form form textarea {
 		width: 100%;
+	}
+}
+
+@media screen and (min-width: 1200px) {
+	#contact-info {
+		width: 48%;
+	}
+	#home-contact-form {
+		width: 48%;
 	}
 }
