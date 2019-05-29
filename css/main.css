@@ -322,12 +322,39 @@ footer p {
 }
 
 @media screen and (min-width: 600px) {
+	#home-hero {
+		justify-content: flex-start;
+	}
+	#home-hero-content-wrapper {
+		margin: 0;
+		height: 100%;
+		width: 35%;
+		max-width: 323.25px;
+		min-width: 222px;
+		padding-right: 0;
+		animation: none;
+	}
+	#home-hero-content {
+		padding: 0;
+	}
 	#practices h2 {
 		font-size: 2rem;
 	}
 }
 
+@media screen and (min-width: 800px) {
+	#home-hero-content-wrapper {
+		max-width: none;
+		min-width: 233.6px;
+	}
+}
+
 @media screen and (min-width: 960px) {
+	#home-hero-content-wrapper {
+		padding-left: 8rem;
+		padding-right: 0;
+		width: 25%;
+	}
 	#practices h2 {
 		padding-left: 8rem;
 		padding-right: 0;
