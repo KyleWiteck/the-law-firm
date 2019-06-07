@@ -10,7 +10,7 @@ const fadeIn = () => {
 				window.scrollY >=
 				attorneyContentUl.getBoundingClientRect().top + 400
 			) {
-				attorneyContentUl.style.animation = 'fadeIn 2s ease-in';
+				attorneyContentUl.style.animation = 'fadeIn 1.5s ease-in';
 				attorneyContentUl.style.opacity = '1';
 			}
 		});
@@ -19,7 +19,7 @@ const fadeIn = () => {
 	if (window.matchMedia('(min-width: 600px)').matches) {
 		window.addEventListener('scroll', e => {
 			if (window.scrollY >= practicesH2.getBoundingClientRect().top - 100) {
-				practicesH2.style.animation = 'fadeIn 2s ease-in';
+				practicesH2.style.animation = 'fadeIn 1.5s ease-in';
 				practicesH2.style.opacity = '1';
 			}
 		});
