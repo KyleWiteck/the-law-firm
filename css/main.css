@@ -129,7 +129,7 @@
 #attorneys #image-block {
 	height: 200px;
 	/* Photo by rawpixel.com from Pexels */
-	background-image: url('/img/meeting.jpg');
+	background-image: url('../img/meeting.jpg');
 	background-attachment: fixed;
 	background-position: center;
 	background-size: cover;
@@ -182,7 +182,7 @@
 #contact {
 	/* Photo by Juhasz Imre from Pexels  */
 	background: linear-gradient(rgba(43, 92, 116, 0.6), rgba(43, 92, 116, 0.6)),
-		url('/img/building2.jpg');
+		url('../img/building2.jpg');
 }
 
 #contact-info {
