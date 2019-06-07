@@ -21,7 +21,7 @@
 /* -------- home hero -------- */
 
 #home-hero {
-	background-image: url('/img/building.jpg');
+	background-image: url('../img/building.jpg');
 	/* Photo by Juhasz Imre from Pexels */
 	background-position: center;
 	background-size: cover;
